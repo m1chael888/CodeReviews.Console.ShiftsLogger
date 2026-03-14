@@ -1,5 +1,5 @@
 # ShiftsLogger
-This is a simple console application that can be used to create and manage workers' shifts. The application is written in C# and uses an SQLite database with Enttiy Framework Core for data access.
+This is a simple console application that can be used to create and manage workers' shifts. The application is written in C# and uses an SQLite database with Entity Framework Core for data access.
 
 # How it works
 The application consists mainly of a front and backend. The frontend or ShiftsUI project is responsible for displaying UI, capturing and validating user inputs and calling the relevant API endpoints. The backend or ShiftsAPI project is responsible for exposing the API endpoints nessecary for the management of shifts. 
